@@ -8,6 +8,9 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
     allowedHosts: ["artwork-1sxd.onrender.com"],
+    hmr: {
+      clientPort: 443,
+    },
   },
   plugins: [
     react()
