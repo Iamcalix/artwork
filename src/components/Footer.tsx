@@ -40,7 +40,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </div>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Transforming spaces with original acrylic paintings that capture the 
+              Transforming spaces with original acrylic paintings that capture the
               vibrant spirit of African artistry.
             </p>
             {/* Social Links */}
@@ -134,7 +134,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-gray-400 text-sm">
-              © {currentYear} Doctor Pencil. All rights reserved.
+              © {currentYear} Doctor Pencil. All rights reserved. | Developed by Castor Joseph
             </p>
             <div className="flex gap-6">
               <button className="text-gray-400 hover:text-amber-400 text-sm transition-colors">
